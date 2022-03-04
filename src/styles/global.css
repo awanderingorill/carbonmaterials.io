@@ -7,11 +7,65 @@
 }
 
 body {
+    color: #1d4d19;
+    display: flex;
+    justify-content: center;
     padding: 2rem 4rem;
     font-family: "Albra Sans";
+    font-size: 14px;
 }
 
 .logo {
+    position: fixed;
+    left: 4rem;
+    top: 4rem;
     font-size: 36px;
     width: 200px;
+}
+
+img {
+    width: 30vh;
+}
+
+.warren {
+    position: relative;
+    top: -100px;
+    left: 200px;
+    z-index: -1000;
+}
+
+.description-and-links {
+    width: 400px;
+    padding-bottom: 2rem;
+}
+
+ a {
+     color: #1d4d19;
+ }
+
+@media (max-width: 43em) {
+    body {
+        padding: 1rem 3rem;
+    }
+
+    .logo {
+        position: relative;
+        left: 0;
+        top: 0;
+        padding-bottom: 1rem;
+    }
+
+    img {
+        width: 40vw;
+        padding-right: 1rem;
+    }
+
+    .warren {
+        left: 100px;
+    }
+
+    .description-and-links {
+        position: relative;
+        padding-bottom: 2rem;
+    }
 }
