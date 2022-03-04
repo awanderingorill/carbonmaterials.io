@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Albra Sans";
+    font-weight: 300;
+    font-style: normal;
+    src: url("../fonts/AlbraSansRegular.woff") format("woff");
+    font-display: swap;
+}
+
+body {
+    padding: 2rem 4rem;
+    font-family: "Albra Sans";
+}
+
+.logo {
+    font-size: 36px;
+    width: 200px;
+}
