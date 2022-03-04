@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet"
 export default function Home() {
   return <><Helmet>
     <title>Saint Warren</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </Helmet>
   <div className={styles}>
     <div class="logo">Saint Warren</div>
