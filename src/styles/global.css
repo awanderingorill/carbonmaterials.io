@@ -15,16 +15,18 @@
 }
 
 body {
-    color: #1d4d19;
+    color: #155029;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 2rem 4rem;
     font-family: "Inter";
     font-size: 14px;
+    text-align: center;
 }
 
 .logo {
-padding-top: 10vh;
+padding: 10vh;
 }
 
 img {
@@ -32,8 +34,28 @@ img {
 }
 
 a {
-     color: #1d4d19;
- }
+     color: #155029;
+}
+
+h1 {
+    font-family: "Souvenir";
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-family: "Souvenir";
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0 0 0.5rem 0;
+}
+
+p {
+    margin: 0;
+    padding: 0 0 2rem 0;
+}
 
 @media (max-width: 43em) {
     body {

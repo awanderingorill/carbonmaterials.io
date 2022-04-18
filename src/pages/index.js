@@ -11,6 +11,17 @@ export default function Home() {
     <div class="logo">
       <img src="./img/CM_icon.svg"></img>
     </div>
+    <div class="company-name-and-contact">
+      <h1>Carbon Materials</h1>
+      <div class="name-and-email">
+        <h2>Barbara Wingler</h2>
+        <p><a href="mailto:barbara@carbonmaterials.io">barbara@carbonmaterials.io</a></p>
+      </div>
+      <div class="name-and-email">
+        <h2>Eugenio Giraldo</h2>
+        <p><a href="mailto:eugenio@carbonmaterials.io">eugenio@carbonmaterials.io</a></p>
+      </div>
+    </div>
     
   </div></>
 }
