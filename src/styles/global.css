@@ -42,6 +42,8 @@ h1 {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 2rem;
+    width: 200px;
+    line-height: 21px;
 }
 
 h2 {
@@ -55,6 +57,12 @@ h2 {
 p {
     margin: 0;
     padding: 0 0 2rem 0;
+}
+
+.company-name-and-contact {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
 }
 
 @media (max-width: 43em) {
